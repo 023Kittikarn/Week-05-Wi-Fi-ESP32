@@ -19,8 +19,8 @@ static EventGroupHandle_t s_wifi_event_group;
 #define WIFI_FAIL_BIT BIT1
 
 // Configurable target Wi-Fi credentials for successful test
-#define EXAMPLE_ESP_WIFI_SSID "MY_SSID"
-#define EXAMPLE_ESP_WIFI_PASS "MY_PASSWORD"
+#define EXAMPLE_ESP_WIFI_SSID "M"
+#define EXAMPLE_ESP_WIFI_PASS "12345678"
 
 // Convert wifi_reason_code_t to readable string
 static const char *get_disconnect_reason_name(uint8_t reason) {
